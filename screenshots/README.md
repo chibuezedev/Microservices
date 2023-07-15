@@ -1,9 +1,7 @@
-# Screenshots
-To help review your infrastructure, please include the following screenshots in this directory::
 
 ## Deployment Pipeline
 * DockerHub showing containers that you have pushed
-* GitHub repository’s settings showing your Travis webhook (can be found in Settings - Webhook)
+* GitHub repository’s settings showing your Travis webhook 
 * Travis CI showing a successful build and deploy job
 
 ## Kubernetes
@@ -15,11 +13,11 @@ kubectl get pods
 ```bash
 kubectl describe services
 ```
-* To verify that you have horizontal scaling set against CPU usage
+* To verify proper horizontal scaling set against CPU usage
 ```bash
 kubectl describe hpa
 ```
-* To verify that you have set up logging with a backend application
+* To verify that i have set up logging with a backend application
 ```bash
 kubectl logs {pod_name}
 ```

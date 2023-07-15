@@ -1,5 +1,4 @@
 # This file is used for convenience of local development.
-# DO NOT STORE YOUR CREDENTIALS INTO GIT
 export POSTGRES_USERNAME=cdr
 export POSTGRES_PASSWORD=1234567890Pp
 export POSTGRES_HOST=cdr.cxekqlnpprvv.us-east-1.rds.amazonaws.com
